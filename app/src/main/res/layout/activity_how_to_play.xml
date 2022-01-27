@@ -20,20 +20,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/ltHowToPlay"
-        android:layout_width="300dp"
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
+        app:autoPlay="true"
         app:layout_constraintTop_toBottomOf="@id/tvHowToPlay"
-        app:layout_constraintVertical_bias="0.19"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/how_to_play" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/tvHowToPlay2"
+        app:videoId="xsg0HMcL2oo" />
+
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/ltHowToPlay"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="300dp"-->
+
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.495"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/tvHowToPlay"-->
+    <!--        app:layout_constraintVertical_bias="0.19"-->
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+    <!--        app:lottie_rawRes="@raw/how_to_play" />-->
 
     <TextView
         android:id="@+id/tvHowToPlay2"
@@ -43,13 +53,13 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="40dp"
         android:fontFamily="@font/madeeta"
-        android:text="@string/choose_one_between_rock_sciccors_paper_and_the_opponent_will_choose_between_rock_sciccors_paper_too"
+        android:text="@string/how_choose_Asset"
         android:textAlignment="center"
         android:textColor='?textColour'
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ltHowToPlay" />
+        app:layout_constraintTop_toBottomOf="@id/youtube_player_view" />
 
     <ImageView
         android:id="@+id/ivBackHTP"

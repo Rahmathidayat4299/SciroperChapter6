@@ -23,7 +23,10 @@
     <string name="scissors">Scissors</string>
     <string name="com">COM</string>
     <string name="vs">VS</string>
-    <string name="choose_one_between_rock_sciccors_paper_and_the_opponent_will_choose_between_rock_sciccors_paper_too">Choose one between rock / sciccors / paper, and the opponent will choose between rock / sciccors / paper too.</string>
+    <string name="how_choose_Asset">Choose one
+         rock / sciccors / paper,\n
+        and
+        \n the opponent will choose between rock / sciccors / paper too.</string>
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
